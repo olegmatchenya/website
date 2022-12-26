@@ -1,0 +1,103 @@
+.auth {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.auth__modal {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--white-color);
+    align-items: center;
+    position: relative;
+}
+
+.auth__input {
+    margin-top: 20px;
+}
+
+
+.login-button {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    cursor: pointer;
+    font-family: var(--cairo-font);
+    font-size: var(--medium-font-size);
+}
+
+.signin-button {
+    color: var(--text-gray-color);
+    text-decoration: underline;
+    font-family: var(--cairo-font);
+    font-size: var(--medium-font-size);
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.auth__close-button {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.register__modal {
+    padding: 40px;
+    flex-direction: column;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--white-color);
+    align-items: center;
+    position: relative;
+    display: none;
+}
+
+.register__input {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid #646464;
+    font-size: var(--medium-font-size);
+    padding-left: 15px;
+}
+
+.register__button {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    cursor: pointer;
+    font-family: var(--cairo-font);
+    font-size: var(--medium-font-size);
+}
+
+

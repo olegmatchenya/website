@@ -1,0 +1,113 @@
+.schedule {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+
+.schedule__wrapper {
+    padding: 150px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule__title {
+    text-align: left;
+}
+
+.schedule__products {
+    position: relative;
+    margin-top: 90px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.schedule__product {
+    margin-top: 45px;
+}
+
+.schedule__product:nth-child(-n+4) {
+    margin-top: 0;
+}
+
+
+.product__img {
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__img img {
+    width: 192px;
+    height: 144px;
+}
+
+.product__name {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.product__title, .product__price {
+    color: var(--text-blue-color);
+    font-family: var(--cairo-font);
+    font-weight: bold;
+}
+
+.product__title {
+    font-size: var(--big-font-size);
+}
+
+.product__price {
+    font-size: var(--medium-font-size);
+}
+
+.product__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.product__weight {
+    font-family: var(--cairo-font);
+    font-size: var(--small-font-size);
+    color: rgba(2, 40, 63, 0.81);
+    font-weight: 400;
+}
+
+.product__button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--orange-color);
+    font-size: var(--medium-font-size);
+    color: var(--text-blue-color);
+    font-family: var(--cairo-font);
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.schedule__button {
+    margin: 0 auto;
+    display: block;
+    outline: none;
+    margin-top: 90px;
+    width: 150px;
+    height: 40px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: var(--medium-font-size);
+    font-family: var(--cairo-font);
+}

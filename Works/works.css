@@ -1,0 +1,131 @@
+.works {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--light-orange-color);
+    background-image: url("images/ellipse.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+
+.info-wrapper {
+    width: 1170px;
+    z-index: 1;
+    display: flex;
+}
+
+.images-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.peoples {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.photo:hover {
+    transform: scale(1.4);
+    z-index: 1;
+    transition: transform .8s;
+}
+
+.photo {
+    width: 270px;
+    height: 320px;
+    border-radius: 35px;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+
+.photo:last-child{
+    margin-top: 30px;
+}
+
+.vegatables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+
+}
+
+.ph {
+    border-radius: 35px;
+}
+
+.ph:last-child{
+    margin-top: 30px;
+}
+
+.txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.txt-wrapper-info img {
+    width: 62px;
+    height: 62px;
+}
+
+.title {
+    font-family: var(--nunito-font);
+    color: var(--text-gray-color);
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.wr-txt {
+    margin-top: 60px;
+    font-family: var(--cairo-font);
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: rgba(42, 53, 71, 0.75);
+    }
+
+.txt-wrapper-info {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-wrapper-info p {
+    font-family: var(--nunito-font);
+    color: var(--text-gray-color);
+    font-size: 20px;
+
+}
+
+.info-txt {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+                         
+.txt-span {
+    margin-top: 20px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+    color: rgba(42, 53, 71, 0.75);
+}
+
+
+
+
+
+

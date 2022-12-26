@@ -1,0 +1,16 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "main ",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
+  },
+  "author": "Oleg Matchenya",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.8.3",
+    "parcel-bundler": "^1.12.5"
+  }
+}

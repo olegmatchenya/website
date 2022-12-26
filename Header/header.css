@@ -1,0 +1,132 @@
+.header {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header__wrapper {
+    z-index: 1;
+    background-image: url("img/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 500px;
+    position: absolute;
+}
+.header__background {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.left-section {
+    width: 60%;
+    height: 100%;
+    background-color: var(--light-orange-color);
+}
+
+.right-section {
+    width: 40%;
+    height: 100%;
+    background-color: var(--orange-color);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.logo {
+    color: var(--text-gray-color);
+    font-family: var(--nunito-font);
+    font-size: 36px;
+}
+
+.logo span {
+    color: var(--orange-color)
+}
+
+.menu__link {
+    margin-left: 45px;
+}
+
+.menu__link:first-child {
+    margin: 0;
+}
+
+.nav__additional-menu button {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.nav__additional-menu button img {
+    width: 18px;
+    height: 18px;
+}
+
+.nav__additional-menu button:first-child {
+        outline: none;
+        width: 140px;
+        height: 50px;
+        border-radius: 22px;
+        background-color: var(--white-color);
+        font-family: var(--cairo-font);
+        font-size: var(medium-font-size);
+        color: var(--brightness-orange-color);
+        border: none;
+        margin-left: 0;
+}
+
+.additional-menu__button {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+
+.header__offer {
+    margin-top: 120px;
+    padding-right: 600px;
+}
+
+
+.header__title {
+    font-family: var(--nunito-font);
+    font-size: var(--header-font-size);
+    color: var(--text-gray-color);
+}
+
+.header__title span {
+    color: var(--orange-color);
+}
+
+.header__text {
+    margin-top: 60px;
+}
+
+.header__button {
+    outline: none;
+    margin-top: 50px;
+    width: 210px;
+    height: 66px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 33px;
+    font-size: var(--medium-font-size);
+    font-family: var(--cairo-font);
+}
+
+.header__button img {
+    margin-left: 20px;
+}

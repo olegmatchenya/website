@@ -1,0 +1,52 @@
+.about {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.about__background {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.about__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.offer__wrapper {
+    width: 400px;
+}
+
+.about__text {
+    margin-top: 60px;
+}
+
+.image__lemon {
+    border-radius: 75px;
+    z-index: 100;
+    transform: rotate(-180deg);
+}
+
+.about__button {
+    outline: none;
+    margin-top: 50px;
+    width: 160px;
+    height: 60px;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    font-size: var(--medium-font-size);
+    font-family: var(--cairo-font);
+}
